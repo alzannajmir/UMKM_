@@ -1,0 +1,412 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/stylesheet/style.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary  sticky-top">
+    <div class="container mx-auto">
+      <a class="navbar-brand " href="#">
+        <img src="./assets/assets/images/Kaos/kemeja2.jpg" alt="Logo" width="40" height="40"
+          class="d-inline-block me-3">
+        Indonesian Clothing Shop
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#jumbotron">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Produk
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#kaos">Kaos</a></li>
+              <li><a class="dropdown-item" href="#celana">Celana</a></li>
+              <li><a class="dropdown-item" href="#sepatu">Sepatu</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">Tentang Kami</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Kontak</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Jumbotron -->
+  <div class="jumbotron">
+    <div class="container-sm text-white p-5">
+      <h1 class="display-2">Indonesian Clothing Shop</h1>
+      <p class="lead">Temukan gaya baru dengan pakaian baru</p>
+      <button class="btn btn-outline-warning fw-semibold">Temukan lebih banyak</button>
+    </div>
+  </div>
+  <!-- Tentang Kami -->
+  <section class="page-section" id="about">
+    <div class="container px-4 px-lg-5">
+      <div class="row gx-4 gx-lg-5 justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h2 class="text-white mt-0"></h2>
+          <hr class="divider divider-light" />
+          <p class="text-white-75 mb-4"></p>
+          <!-- <a class="btn btn-light btn-xl" href="#services">Mulai Sekarang!</a> -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about container mt-5">
+    <h2 class="fw-bold"><span>Tentang</span> Kami</h2>
+    <div class="row justify-content-center align-items-center">
+      <img src="assets/assets/images/Kaos/kemeja2.jpg" alt="Tentang Kami">
+      <div class="content col-6 mt-5 text-center">
+        <h3 class="fw-semibold">Kenapa memilih produk kami?</h3>
+        <p class="fs-5">Penyedia kebutuhan fashion berkualitas dengan harga mulai dari puluhan
+          ribu
+          rupiah, kamu sudah bisa mendapatkan produk pakaian yang kece abis!!!!
+        </p>
+        <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt recusandae cupiditate ullam
+          alias. Minima ea eligendi quidem ex dolorum inventore perspiciatis, sunt maiores adipisci architecto rem
+          aspernatur sed dolores, eaque asperiores animi libero error exercitationem velit cum quas. Laudantium,
+          placeat.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Produk 1-->
+  <!-- <div id="kaos">
+    <div class="gallery js-flickity" data-fli=""></div>
+    <div class="container-sm d-flex justify-content-center">
+      <div id="carouselExample" class="col carousel slide list-kaos">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container text-start d-flex justify-content-center">
+              <div class="row align-items-center">
+                <div class="col-sm-3">
+                  <div class="card" style="width: 200px;">
+                    <img src="assets/images/Kaoassets/images/Kaos/kemeja2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Kaos Polos</h5>
+                      <hr>
+                      <p class="card-text fw-lighter fs-6">Rp.100.000</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="card" style="width: 200px;">
+                    <img src="assets/images/assets/images/Kaos/kemeja2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Kaos Polos</h5>
+                      <hr>
+                      <p class="card-text fw-lighter fs-6">Rp.100.000</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="card" style="width: 200px;">
+                    <img src="assets/imageassets/images/Kaos/kemeja2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Kaos Polos</h5>
+                      <hr>
+                      <p class="card-text fw-lighter fs-6">Rp.100.000</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="card" style="width: 200px;">
+                    <img src="assets/imageassets/images/Kaos/kemeja2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Kaos Polos</h5>
+                      <hr>
+                      <p class="card-text fw-lighter fs-6">Rp.100.000</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!-- Produk 2 -->
+  <!-- <div id="celana">
+      <div class="container-sm d-flex justify-content-center">
+        <div id="carouselExample" class="col carousel slide list-kaos">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="container text-start d-flex justify-content-center">
+                <div class="row align-items-center">
+                  <div class="col-sm-3">
+                    <div class="card" style="width: 200px;">
+                      <img src="assets/images/assets/images/Kaos/kemeja2.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Kaos Polos</h5>
+                        <hr>
+                        <p class="card-text fw-lighter fs-6">Rp.100.000</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="card" style="width: 200px;">
+                      <img src="assets/images/Cassets/images/Kaos/kemeja2.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Kaos Polos</h5>
+                        <hr>
+                        <p class="card-text fw-lighter fs-6">Rp.100.000</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="card" style="width: 200px;">
+                      <img src="assets/images/Cassets/images/Kaos/kemeja2.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Kaos Polos</h5>
+                        <hr>
+                        <p class="card-text fw-lighter fs-6">Rp.100.000</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="card" style="width: 200px;">
+                      <img src="assets/images/Cassets/images/Kaos/kemeja2.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Kaos Polos</h5>
+                        <hr>
+                        <p class="card-text fw-lighter fs-6">Rp.100.000</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div> -->
+
+  <!-- Produk 3 -->
+  <!-- <div id="sepatu">
+        <div class="container-sm d-flex justify-content-center">
+          <div id="carouselExample" class="col carousel slide list-kaos">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="container text-start d-flex justify-content-center">
+                  <div class="row align-items-center">
+                    <div class="col-sm-3">
+                      <div class="card" style="width: 200px;">
+                        <img src="assets/images/Sassets/images/Kaos/kemeja2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Kaos Polos</h5>
+                          <hr>
+                          <p class="card-text fw-lighter fs-6">Rp.100.000</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="card" style="width: 200px;">
+                        <img src="assets/images/Seassets/images/Kaos/kemeja2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Kaos Polos</h5>
+                          <hr>
+                          <p class="card-text fw-lighter fs-6">Rp.100.000</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="card" style="width: 200px;">
+                        <img src="assets/images/Seassets/images/Kaos/kemeja2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Kaos Polos</h5>
+                          <hr>
+                          <p class="card-text fw-lighter fs-6">Rp.100.000</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="card" style="width: 200px;">
+                        <img src="assets/images/Seassets/images/Kaos/kemeja2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Kaos Polos</h5>
+                          <hr>
+                          <p class="card-text fw-lighter fs-6">Rp.100.000</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div> --> -->
+
+  <!-- Carousel -->
+  <div class="wrapper">
+    <i id="left" class="fa-solid fa-angle-left"></i>
+    <div class="carousel">
+      <img src="assets/images/Kaos/kemeja2.jpg" alt="img" draggable="false">
+      <img src="assets/images/Kaos/kaos3.jpg" alt="img" draggable="false">
+      <img src="assets/images/Kaos/polo_shirt.jpg" alt="img" draggable="false">
+      <img src="assets/images/Kaos/kaos4.jpg" alt="img" draggable="false">
+      <img src="assets/images/Celana/pants.jpg" alt="img" draggable="false">
+      <img src="assets/images/Celana/pants2.jpg" alt="img" draggable="false">
+      <img src="assets/images/Celana/pants3.jpg" alt="img" draggable="false">
+      <img src="assets/images/Celana/pants4.jpg" alt="img" draggable="false">
+      <img src="assets/images/Kaos/kemeja2.jpg" alt="img" draggable="false">
+    </div>
+    <i id="right" class="fa-solid fa-angle-right"></i>
+  </div>
+
+  <!-- Lokasi Kami -->
+  <section class="page-section" id="services">
+    <div class="container px-4 px-lg-5">
+      <h2 class="text-center mt-0">Daftar lokasi Indonesian Clothing Shop</h2>
+      <hr class="divider" />
+      <div class="row gx-4 gx-lg-5">
+        <div class="col-lg-4 col-md-6 text-center">
+          <div class="mt-5">
+            <h3 class="h4 mb-2">Bandung</h3>
+            <p class="text-muted mb-0">Jl. Trunojoyo, Citarum, Bandung Wetan</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 text-center">
+          <div class="mt-5">
+            <h3 class="h4 mb-2">Jakarta</h3>
+            <p class="text-muted mb-0">Jl. Jendral Sudirman, Tanah Abang, Jakarta Pusat</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 text-center">
+          <div class="mt-5">
+            <h3 class="h4 mb-2">Semarang</h3>
+            <p class="text-muted mb-0">Jl. RA Kartini, Rejosari, Semarang Timur</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kontak -->
+  <section class="page-section" id="contact">
+    <div class="container px-4 px-lg-5">
+      <div class="row gx-4 gx-lg-5 justify-content-center">
+        <div class="col-lg-8 col-xl-6 text-center">
+          <h2 class="mt-0">Let's Get In Touch!</h2>
+          <hr class="divider" />
+          <p class="text-muted mb-5">Pesan Sekarang Sebelum Kehabisan</p>
+        </div>
+      </div>
+      <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
+        <div class="col-lg-6">
+          <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+            <!-- Name input-->
+            <div class="form-floating mb-3">
+              <input class="form-control" id="name" type="text" placeholder="Enter your name..."
+                data-sb-validations="required" />
+              <label for="name">Nama Lengkap</label>
+              <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+            </div>
+            <!-- Email address input-->
+            <div class="form-floating mb-3">
+              <input class="form-control" id="email" type="email" placeholder="name@example.com"
+                data-sb-validations="required,email" />
+              <label for="email">Email</label>
+              <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+              <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+            </div>
+            <!-- Phone number input-->
+            <div class="form-floating mb-3">
+              <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890"
+                data-sb-validations="required" />
+              <label for="phone">No Telp</label>
+              <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+            </div>
+            <!-- Message input-->
+            <div class="form-floating mb-3">
+              <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..."
+                style="height: 10rem" data-sb-validations="required"></textarea>
+              <label for="message">Alamat</label>
+              <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+            </div>
+            <div class="d-none" id="submitSuccessMessage">
+              <div class="text-center mb-3">
+                <div class="fw-bolder">Form submission successful!</div>
+                To activate this form, sign up at
+                <br />
+                <a
+                  href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+              </div>
+            </div>
+            <div class="d-none" id="submitErrorMessage">
+              <div class="text-center text-danger mb-3">Error sending message!</div>
+            </div>
+            <!-- Submit Button-->
+            <div class="d-grid"><button class="btn btn-primary btn-xl disabled" id="submitButton"
+                type="submit">Submit</button></div>
+          </form>
+        </div>
+      </div>
+      <div class="row gx-4 gx-lg-5 justify-content-center">
+        <div class="col-lg-4 text-center mb-5 mb-lg-0">
+          <i class="bi-phone fs-2 mb-3 text-muted"></i>
+          <div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer class="bg-light py-5">
+    <div class="container px-lg-5">
+      <div class="small text-muted"> Copyright &copy; 2023 - Magang Nash Interakasi Semesta</div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+  </script>
+  <script src="assets/javascript/script.js"></script>
+
+</body>
+
+</html>
